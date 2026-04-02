@@ -1,0 +1,240 @@
+{
+  "incoming_dir": "/sso/transport/incoming",
+  "archive_dir": "/sso/transport/archive",
+  "outgoing_dir": "/sso/transport/outgoing",
+  "debug": true,
+  "run_user": "wmtrun",
+  "runbook_link": "https://www.ondemand.sas.com/confluencedoc/display/WMTINT/Walmart+Global+Runbook",
+  "environments": {
+    "ams-toolkit": {
+      "env_type": "DEV",
+      "env_function": "compute",
+      "tla": "WMX",
+      "run_user": "wmtrun"
+    },
+    "wmt08au": {
+      "env_type": "TEST",
+      "env_function": "compute",
+      "tla": "WMX",
+      "run_user": "wmtrun"
+    },
+    "wmt10au": {
+      "env_type": "QA",
+      "env_function": "compute",
+      "tla": "WMX",
+      "run_user": "wmxrun"
+    },
+    "wmt12au": {
+      "env_type": "PROD",
+      "env_function": "compute",
+      "tla": "WMX",
+      "run_user": "xxxrun"
+    }
+  },
+  "OLA": {
+    "OLA1": {
+      "single_day": 0,
+      "min_day": 0,
+      "max_day": 0,
+      "day_of_month": 1,
+      "time_of_day": 120000,
+      "reset_time": 121000
+    },
+    "OLA2": {
+      "single_day": 1,
+      "min_day": 0,
+      "max_day": 0,
+      "day_of_month": 0,
+      "time_of_day": 170000,
+      "reset_time": 171000
+    }
+  },
+  "projects": {
+    "Project or Workstream Name: sepsis_bio": {
+      "project_name": "Project or Workstream Name: sepsis_bio",
+      "home_dir": "/wmt/projects/fcs/${run_user}",
+      "signal_dir": "/wmt/projects/fcs/${run_user}/signals",
+      "schedules": {
+        "dow_jones": {
+          "debug": true,
+          "schedule_name": "dow_jones",
+          "automation_type": "Dsmeta",
+          "started_ola": "OLA1",
+          "completed_ola": "OLA2",
+          "tla": "WMX",
+          "schedule_update_comment_link": "",
+          "home_dir": "/wmt/projects/fcs/${run_user}",
+          "signal_dir": "/wmt/projects/fcs/${run_user}/signals",
+          "longtime": 100,
+          "shorttime": -1,
+          "details": "If you get an error on this, chances are there was a problem with the file being corrupt.  Try rerunning the file...",
+          "runbook_sub_link": "https://www.ondemand.sas.com/confluencedoc/display/WMTINT/Walmart+Global+Runbook#WalmartGlobalRunbook-FileSchedule.3",
+          "incoming_dir": "/sso/transport/incoming",
+          "archive_dir": "/sso/transport/archive",
+          "outgoing_dir": "/sso/transport/outgoing",
+          "jibbix_options": {
+            "project": "WMX",
+            "priority": "critical",
+            "watchers": "owhoyt,dasetz,kepers",
+            "component": "Operations",
+            "labels": "ams_batch_monitoring",
+            "comm_status_prod": "major issue",
+            "summary": "Dow Jones Schedule"
+          },
+          "log_file_locations": {
+            "/${some_other_var_i_feel_like_defining}projects/fcs/${run_user}/logs/dowjones": {
+              "orig_log_file_path": "/${some_other_var_i_feel_like_defining}projects/fcs/${run_user}/logs/dowjones",
+              "regex_to_search": [
+                "^ERROR:",
+                "permission_denied/i"
+              ]
+            }
+          },
+          "on_error_handlers": [
+            "/${some_other_var_i_feel_like_defining}projects/fcs/${run_user}/bin/gather_error_details.py"
+          ],
+          "on_success_handlers": [
+            "/some/script.py"
+          ]
+        },
+        "daily_batch": {
+          "debug": false,
+          "schedule_name": "daily_batch",
+          "automation_type": "Dsmeta",
+          "tla": "WMX",
+          "home_dir": "/wmt/projects/fcs/${run_user}",
+          "signal_dir": "/wmt/projects/fcs/${run_user}/signals",
+          "longtime": 720,
+          "details": "If you get an error on this, You will need to follow the flashback procedures",
+          "runbook_sub_link": "https://www.ondemand.sas.com/confluencedoc/display/WMTINT/Walmart+Global+Runbook#WalmartGlobalRunbook-FileSchedule.3",
+          "jibbix_options": {
+            "project": "WMX",
+            "priority": "blocker",
+            "watchers": "owhoyt,dasetz,kepers",
+            "component": "Operations",
+            "labels": "ams_batch_monitoring",
+            "comm_status_prod": "not normal",
+            "summary": "${TLA} Batch Error in Job:"
+          },
+          "log_file_locations": {
+            "/${some_other_var_i_feel_like_defining}projects/fcs/${run_user}/logs/dowjones": {
+              "orig_log_file_path": "/${some_other_var_i_feel_like_defining}projects/fcs/${run_user}/logs/dowjones",
+              "regex_to_search": [
+                "^ERROR:",
+                "permission_denied/i"
+              ]
+            }
+          },
+          "on_error_handlers": [
+            "/${some_other_var_i_feel_like_defining}projects/fcs/${run_user}/bin/gather_error_details.py"
+          ],
+          "on_success_handlers": [
+            "/some/script.py"
+          ]
+        },
+        "usd_report": {
+          "debug": false,
+          "schedule_name": "usd_report",
+          "automation_type": "AMSToolkit",
+          "automation_name": "USDReport",
+          "tla": "WMX",
+          "home_dir": "/wmt/projects/fcs/${run_user}",
+          "signal_dir": "/wmt/projects/fcs/${run_user}/signals",
+          "jibbix_options": {},
+          "on_error_handlers": [],
+          "on_success_handlers": []
+        }
+      }
+    }
+  },
+  "file_routes": {
+    "outgoing_realtime_sftp": {
+      "file_route_name": "outgoing_realtime_sftp",
+      "polling_interval": "0",
+      "retry_limit": "5",
+      "retry_wait": "1",
+      "overwrite": true,
+      "jibbix_options": {
+        "project": "ANF",
+        "priority": "critical",
+        "watchers": "owhoyt,dasetz,kepers",
+        "component": "Operations",
+        "labels": "ams_batch_monitoring",
+        "comm_status_prod": "not normal",
+        "summary": "Failed to route file",
+        "host": "anf03au.vsp.sas.com"
+      },
+      "method": {
+        "type": "SftpPush",
+        "from_directory": "/sso/transport/anf/from",
+        "to_directory": "/sso/transport/anf/to",
+        "username": "UgHYpFtecPPPhfEVjweLbA==",
+        "password": "UgHYpFtecPPPhfEVjweLbA==",
+        "host": "localhost",
+        "archive_directory": "/sso/transport/archive/",
+        "file_patterns": [
+          ".*\\.csv",
+          ".*\\.bat"
+        ]
+      }
+    },
+    "incoming_realtime_sftp": {
+      "file_route_name": "incoming_realtime_sftp",
+      "polling_interval": "0",
+      "retry_limit": "5",
+      "retry_wait": "30",
+      "overwrite": true,
+      "jibbix_options": {
+        "project": "ANF",
+        "priority": "critical",
+        "watchers": "owhoyt,dasetz,kepers",
+        "component": "Operations",
+        "labels": "ams_batch_monitoring",
+        "comm_status_prod": "not normal",
+        "summary": "Failed to route file",
+        "host": "anf03au.vsp.sas.com"
+      },
+      "method": {
+        "type": "SftpPull",
+        "from_directory": "/sso/transport/anf/from1",
+        "to_directory": "/sso/transport/anf/to1",
+        "username": "UgHYpFtecPPPhfEVjweLbA==",
+        "password": "UgHYpFtecPPPhfEVjweLbA==",
+        "key_file": "/usr/tmp/keyfile1",
+        "host": "anf01au.vsp.sas.com",
+        "archive_directory": "/sso/transport/archive/",
+        "file_patterns": [
+          ".*\\.csv",
+          ".*\\.bat"
+        ]
+      }
+    },
+    "internal_move": {
+      "file_route_name": "internal_move",
+      "polling_interval": "0",
+      "retry_limit": "5",
+      "retry_wait": "30",
+      "overwrite": true,
+      "jibbix_options": {
+        "project": "ANF",
+        "priority": "critical",
+        "watchers": "owhoyt,dasetz,kepers",
+        "component": "Operations",
+        "labels": "ams_batch_monitoring",
+        "comm_status_prod": "not normal",
+        "summary": "Failed to route file",
+        "host": "anf03au.vsp.sas.com"
+      },
+      "method": {
+        "type": "Move",
+        "from_directory": "/sso/transport/anf/incoming/internal/move",
+        "to_directory": "/sso/transport/anf/outgoing/internal/move",
+        "archive_directory": "/sso/transport/archive/",
+        "file_patterns": [
+          "*.csv",
+          "*.bat"
+        ]
+      }
+    }
+  }
+}

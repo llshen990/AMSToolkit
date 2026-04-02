@@ -1,0 +1,468 @@
+2020-05-27 08:02:09,722 [INFO] [AMSLogger.py:77] __init__ - Logging all application messages to /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log
+2020-05-27 08:02:09,725 [INFO] [AMSLogger.py:146] info - Files or directories that have been modified since 2020-05-26 08:02:09.725117
+2020-05-27 08:02:10,836 [INFO] [AMSLogger.py:146] info - Sending update to Zabbix...
+2020-05-27 08:02:10,837 [INFO] [AMSLogger.py:146] info - Updating Zabbix - Config: /etc/zabbix/zabbix_agentd.conf, Host: ams-toolkit, Key: toolkit.jibbix_options, Value: Project: TST
+Link: comm
+CommentOnly: yes
+Summary: Link to comm ticket in project TST
+
+Files and directories space comsumption in /vagrant/src:
+
+Top 25 files in file size
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+7, /vagrant/src/Toolkit/Config/AMSConfig.pyc, 45.63 KB
+8, /vagrant/src/Config/config.py, 36.34 KB
+9, /vagrant/src/Automation/AbstractAutomation.py, 35.22 KB
+10, /vagrant/src/Toolkit/Controllers/ams_confluence_doc.py, 31.06 KB
+11, /vagrant/src/jira/classes/jibbix.py, 30.23 KB
+12, /vagrant/src/Toolkit/Lib/Helpers/AMSZabbix.py, 28.95 KB
+13, /vagrant/src/Toolkit/Config/AMSJibbixOptions.py, 28.80 KB
+14, /vagrant/src/Toolkit/Config/AMSSchedule.py, 28.59 KB
+15, /vagrant/src/Toolkit/Views/CommandLineConfigView.py, 27.25 KB
+16, /vagrant/src/Toolkit/Lib/Helpers/AMSZabbix.pyc, 22.96 KB
+17, /vagrant/src/PythonSASConnector/AbstractPythonSASConnector.py, 22.90 KB
+18, /vagrant/src/Toolkit/Config/AMSFileRouteMethod.py, 22.47 KB
+19, /vagrant/src/Toolkit/Config/AMSJibbixOptions.pyc, 21.62 KB
+20, /vagrant/src/Toolkit/Config/AMSSchedule.pyc, 20.87 KB
+21, /vagrant/src/cronSsodEtlInit.py, 20.11 KB
+22, /vagrant/src/lib/Helpers/EncodingHelper.py, 18.84 KB
+23, /vagrant/src/lib/AGP/AGPStatus.py, 17.58 KB
+24, /vagrant/src/Toolkit/Config/AMSFileRouteMethod.pyc, 16.57 KB
+25, /vagrant/src/EmailTemplates/Templates/MissingFileReport.py, 15.90 KB
+
+Top 10 directories in space consumption 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 96.04 KB
+9, /vagrant/src/lib/Validators, 87.89 KB
+10, /vagrant/src/Toolkit/Lib, 71.12 KB
+
+Top 25 files in file size that have been modified in the past 1 days.
+
+Top 10 directories in space consumption of files modified in the past 1 days.
+2020-05-27 08:04:48,193 [INFO] [AMSLogger.py:77] __init__ - Logging all application messages to /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log
+2020-05-27 08:04:48,195 [INFO] [AMSLogger.py:146] info - Files or directories that have been modified since 2020-05-26 08:04:48.195888
+2020-05-27 08:04:49,303 [INFO] [AMSLogger.py:146] info - Sending update to Zabbix...
+2020-05-27 08:04:49,304 [INFO] [AMSLogger.py:146] info - Updating Zabbix - Config: /etc/zabbix/zabbix_agentd.conf, Host: ams-toolkit, Key: toolkit.jibbix_options, Value: Project: TST
+Priority: critical
+Security: none
+Type: issue
+Link: none
+
+Files and directories space comsumption in /vagrant/src:
+
+Top 25 files in file size
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+7, /vagrant/src/Toolkit/Config/AMSConfig.pyc, 45.63 KB
+8, /vagrant/src/Config/config.py, 36.34 KB
+9, /vagrant/src/Automation/AbstractAutomation.py, 35.22 KB
+10, /vagrant/src/Toolkit/Controllers/ams_confluence_doc.py, 31.06 KB
+11, /vagrant/src/jira/classes/jibbix.py, 30.23 KB
+12, /vagrant/src/Toolkit/Lib/Helpers/AMSZabbix.py, 28.95 KB
+13, /vagrant/src/Toolkit/Config/AMSJibbixOptions.py, 28.80 KB
+14, /vagrant/src/Toolkit/Config/AMSSchedule.py, 28.59 KB
+15, /vagrant/src/Toolkit/Views/CommandLineConfigView.py, 27.25 KB
+16, /vagrant/src/Toolkit/Lib/Helpers/AMSZabbix.pyc, 22.96 KB
+17, /vagrant/src/PythonSASConnector/AbstractPythonSASConnector.py, 22.90 KB
+18, /vagrant/src/Toolkit/Config/AMSFileRouteMethod.py, 22.47 KB
+19, /vagrant/src/Toolkit/Config/AMSJibbixOptions.pyc, 21.62 KB
+20, /vagrant/src/Toolkit/Config/AMSSchedule.pyc, 20.87 KB
+21, /vagrant/src/cronSsodEtlInit.py, 20.11 KB
+22, /vagrant/src/lib/Helpers/EncodingHelper.py, 18.84 KB
+23, /vagrant/src/lib/AGP/AGPStatus.py, 17.58 KB
+24, /vagrant/src/Toolkit/Config/AMSFileRouteMethod.pyc, 16.57 KB
+25, /vagrant/src/EmailTemplates/Templates/MissingFileReport.py, 15.90 KB
+
+Top 10 directories in space consumption 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 96.06 KB
+9, /vagrant/src/lib/Validators, 87.89 KB
+10, /vagrant/src/Toolkit/Lib, 71.12 KB
+
+Top 25 files in file size that have been modified in the past 1 days.
+
+Top 10 directories in space consumption of files modified in the past 1 days.
+2020-05-29 10:33:28,426 [INFO] [AMSLogger.py:77] __init__ - Logging all application messages to /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log
+2020-05-29 10:33:28,429 [INFO] [AMSLogger.py:146] info - Files or directories that have been modified since 2020-05-27 10:33:28.429101
+2020-05-29 10:33:29,535 [INFO] [AMSLogger.py:146] info - Sending update to Zabbix...
+2020-05-29 10:33:29,535 [INFO] [AMSLogger.py:146] info - Updating Zabbix - Config: /etc/zabbix/zabbix_agentd.conf, Host: ams-toolkit, Key: toolkit.jibbix_options, Value: Project: TST
+Priority: critical
+Security: none
+Type: issue
+Link: none
+
+Files and directories space comsumption in /vagrant/src:
+
+Top 6 files in file size
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+
+Top 8 directories in space consumption 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 103.61 KB
+
+Top 25 files in file size that have been modified in the past 2 days.
+
+Top 10 directories in space consumption of files modified in the past 2 days.
+2020-05-29 10:36:32,438 [INFO] [AMSLogger.py:77] __init__ - Logging all application messages to /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log
+2020-05-29 10:36:32,441 [INFO] [AMSLogger.py:146] info - Files or directories that have been modified since 2020-05-27 10:36:32.441204
+2020-05-29 10:36:34,192 [INFO] [AMSLogger.py:146] info - Sending update to Zabbix...
+2020-05-29 10:36:34,192 [INFO] [AMSLogger.py:146] info - Updating Zabbix - Config: /etc/zabbix/zabbix_agentd.conf, Host: ams-toolkit, Key: toolkit.jibbix_options, Value: Project: TST
+Priority: critical
+Security: none
+Type: issue
+Link: none
+
+Files and directories space comsumption in /vagrant/src:
+
+Top 6 files in file size
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+
+Top 8 directories in space consumption 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 103.61 KB
+
+Top 25 files in file size that have been modified in the past 2 days.
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+
+Top 10 directories in space consumption of files modified in the past 2 days. 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 103.61 KB
+2020-05-29 10:38:05,440 [INFO] [AMSLogger.py:77] __init__ - Logging all application messages to /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log
+2020-05-29 10:38:05,443 [INFO] [AMSLogger.py:146] info - Files or directories that have been modified since 2020-05-27 10:38:05.443322
+2020-05-29 10:38:07,243 [INFO] [AMSLogger.py:146] info - Sending update to Zabbix...
+2020-05-29 10:38:07,243 [INFO] [AMSLogger.py:146] info - Updating Zabbix - Config: /etc/zabbix/zabbix_agentd.conf, Host: ams-toolkit, Key: toolkit.jibbix_options, Value: Project: TST
+Priority: critical
+Security: none
+Type: issue
+Link: none
+
+Files and directories space comsumption in /vagrant/src:
+
+Top 6 files in file size
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+
+Top 8 directories in space consumption 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 103.59 KB
+
+Top 6 files in file size that have been modified in the past 2 days.
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+
+Top 8 directories in space consumption of files modified in the past 2 days. 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 103.59 KB
+2020-05-29 10:39:31,600 [INFO] [AMSLogger.py:77] __init__ - Logging all application messages to /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log
+2020-05-29 10:39:31,603 [INFO] [AMSLogger.py:146] info - Files or directories that have been modified since 2020-05-28 10:39:31.603789
+2020-05-29 10:39:33,338 [INFO] [AMSLogger.py:146] info - Sending update to Zabbix...
+2020-05-29 10:39:33,339 [INFO] [AMSLogger.py:146] info - Updating Zabbix - Config: /etc/zabbix/zabbix_agentd.conf, Host: ams-toolkit, Key: toolkit.jibbix_options, Value: Project: TST
+Priority: critical
+Security: none
+Type: issue
+Link: none
+
+Files and directories space comsumption in /vagrant/src:
+
+Top 6 files in file size
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+
+Top 8 directories in space consumption 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 103.59 KB
+
+Top 6 files in file size that have been modified in the past 1 days.
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+
+Top 8 directories in space consumption of files modified in the past 1 days. 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 103.59 KB
+2020-05-29 10:47:46,263 [INFO] [AMSLogger.py:77] __init__ - Logging all application messages to /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log
+2020-05-29 10:47:46,266 [INFO] [AMSLogger.py:146] info - Files or directories that have been modified since 2020-05-24 10:47:46.266206
+2020-05-29 10:47:47,955 [INFO] [AMSLogger.py:146] info - Sending update to Zabbix...
+2020-05-29 10:47:47,956 [INFO] [AMSLogger.py:146] info - Updating Zabbix - Config: /etc/zabbix/zabbix_agentd.conf, Host: ams-toolkit, Key: toolkit.jibbix_options, Value: Project: TST
+Priority: critical
+Security: none
+Type: issue
+Link: none
+
+Files and directories space comsumption in /vagrant/src:
+
+Top 6 files in file size
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+
+Top 8 directories in space consumption 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 103.59 KB
+
+Top 6 files in file size that have been modified in the past 5 days.
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+
+Top 8 directories in space consumption of files modified in the past 5 days. 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 103.59 KB
+2020-05-29 10:52:21,335 [INFO] [AMSLogger.py:77] __init__ - Logging all application messages to /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log
+2020-05-29 10:53:08,408 [INFO] [AMSLogger.py:77] __init__ - Logging all application messages to /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log
+2020-05-29 10:53:08,411 [INFO] [AMSLogger.py:146] info - Files or directories that have been modified since 2020-05-28 10:53:08.411486
+2020-05-29 10:53:10,094 [INFO] [AMSLogger.py:146] info - Sending update to Zabbix...
+2020-05-29 10:53:10,095 [INFO] [AMSLogger.py:146] info - Updating Zabbix - Config: /etc/zabbix/zabbix_agentd.conf, Host: ams-toolkit, Key: toolkit.jibbix_options, Value: Project: TST
+Priority: critical
+Security: none
+Type: issue
+Link: none
+
+Files and directories space comsumption in /vagrant/src:
+
+Top 25 files in file size
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+7, /vagrant/src/Toolkit/Config/AMSConfig.pyc, 45.63 KB
+8, /vagrant/src/Config/config.py, 36.34 KB
+9, /vagrant/src/Automation/AbstractAutomation.py, 35.22 KB
+10, /vagrant/src/Toolkit/Controllers/ams_confluence_doc.py, 31.06 KB
+11, /vagrant/src/jira/classes/jibbix.py, 30.23 KB
+12, /vagrant/src/Toolkit/Lib/Helpers/AMSZabbix.py, 28.95 KB
+13, /vagrant/src/Toolkit/Config/AMSJibbixOptions.py, 28.80 KB
+14, /vagrant/src/Toolkit/Config/AMSSchedule.py, 28.59 KB
+15, /vagrant/src/Toolkit/Views/CommandLineConfigView.py, 27.25 KB
+16, /vagrant/src/Toolkit/Lib/Helpers/AMSZabbix.pyc, 22.96 KB
+17, /vagrant/src/PythonSASConnector/AbstractPythonSASConnector.py, 22.90 KB
+18, /vagrant/src/Toolkit/Config/AMSFileRouteMethod.py, 22.47 KB
+19, /vagrant/src/Toolkit/Config/AMSJibbixOptions.pyc, 21.62 KB
+20, /vagrant/src/Toolkit/Config/AMSSchedule.pyc, 20.87 KB
+21, /vagrant/src/cronSsodEtlInit.py, 20.11 KB
+22, /vagrant/src/lib/Helpers/EncodingHelper.py, 18.84 KB
+23, /vagrant/src/lib/AGP/AGPStatus.py, 17.58 KB
+24, /vagrant/src/Toolkit/Config/AMSFileRouteMethod.pyc, 16.57 KB
+25, /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log, 16.41 KB
+
+Top 10 directories in space consumption 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 103.58 KB
+9, /vagrant/src/lib/Validators, 87.89 KB
+10, /vagrant/src/Toolkit/Lib, 63.22 KB
+
+Top 25 files in file size that have been modified in the past 1 days.
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+7, /vagrant/src/Toolkit/Config/AMSConfig.pyc, 45.63 KB
+8, /vagrant/src/Config/config.py, 36.34 KB
+9, /vagrant/src/Automation/AbstractAutomation.py, 35.22 KB
+10, /vagrant/src/Toolkit/Controllers/ams_confluence_doc.py, 31.06 KB
+11, /vagrant/src/jira/classes/jibbix.py, 30.23 KB
+12, /vagrant/src/Toolkit/Lib/Helpers/AMSZabbix.py, 28.95 KB
+13, /vagrant/src/Toolkit/Config/AMSJibbixOptions.py, 28.80 KB
+14, /vagrant/src/Toolkit/Config/AMSSchedule.py, 28.59 KB
+15, /vagrant/src/Toolkit/Views/CommandLineConfigView.py, 27.25 KB
+16, /vagrant/src/Toolkit/Lib/Helpers/AMSZabbix.pyc, 22.96 KB
+17, /vagrant/src/PythonSASConnector/AbstractPythonSASConnector.py, 22.90 KB
+18, /vagrant/src/Toolkit/Config/AMSFileRouteMethod.py, 22.47 KB
+19, /vagrant/src/Toolkit/Config/AMSJibbixOptions.pyc, 21.62 KB
+20, /vagrant/src/Toolkit/Config/AMSSchedule.pyc, 20.87 KB
+21, /vagrant/src/cronSsodEtlInit.py, 20.11 KB
+22, /vagrant/src/lib/Helpers/EncodingHelper.py, 18.84 KB
+23, /vagrant/src/lib/AGP/AGPStatus.py, 17.58 KB
+24, /vagrant/src/Toolkit/Config/AMSFileRouteMethod.pyc, 16.57 KB
+25, /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log, 16.41 KB
+
+Top 10 directories in space consumption of files modified in the past 1 days. 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+6, /vagrant/src/Toolkit/Models, 144.36 KB
+7, /vagrant/src/Toolkit/Lib/Helpers, 127.55 KB
+8, /vagrant/src/Toolkit/Controllers, 103.58 KB
+9, /vagrant/src/lib/Validators, 87.89 KB
+10, /vagrant/src/Toolkit/Lib, 63.22 KB
+2020-05-29 11:10:02,868 [INFO] [AMSLogger.py:77] __init__ - Logging all application messages to /vagrant/src/Toolkit/logs/ams_space_check.py__vagrant_app.log
+2020-05-29 11:10:02,871 [INFO] [AMSLogger.py:146] info - Files or directories that have been modified since 2020-05-28 11:10:02.871122
+2020-05-29 11:10:04,884 [INFO] [AMSLogger.py:146] info - Sending update to Zabbix...
+2020-05-29 11:10:04,885 [INFO] [AMSLogger.py:146] info - Updating Zabbix - Config: /etc/zabbix/zabbix_agentd.conf, Host: ams-toolkit, Key: toolkit.jibbix_options, Value: Project: TST
+Priority: critical
+Security: none
+Type: issue
+Link: none
+
+Files and directories space comsumption in /vagrant/src:
+
+Top 15 files in file size
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+7, /vagrant/src/Toolkit/Config/AMSConfig.pyc, 45.63 KB
+8, /vagrant/src/Config/config.py, 36.34 KB
+9, /vagrant/src/Automation/AbstractAutomation.py, 35.22 KB
+10, /vagrant/src/Toolkit/Controllers/ams_confluence_doc.py, 31.06 KB
+11, /vagrant/src/jira/classes/jibbix.py, 30.23 KB
+12, /vagrant/src/Toolkit/Lib/Helpers/AMSZabbix.py, 28.95 KB
+13, /vagrant/src/Toolkit/Config/AMSJibbixOptions.py, 28.80 KB
+14, /vagrant/src/Toolkit/Config/AMSSchedule.py, 28.59 KB
+15, /vagrant/src/Toolkit/Views/CommandLineConfigView.py, 27.25 KB
+
+Top 5 directories in space consumption 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB
+
+Top 15 files in file size that have been modified in the past 1 days.
+1, /vagrant/src/Toolkit/ops-infrastructure/sas-check, 14.87 MB
+2, /vagrant/src/Toolkit/Sked/sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch/ini_inventory_reformat, 4.66 MB
+4, /vagrant/src/Toolkit/Config/AMSConfig.py, 64.07 KB
+5, /vagrant/src/lib/ETLFile/File.py, 53.93 KB
+6, /vagrant/src/Toolkit/Models/AMSScheduleLauncher.py, 53.22 KB
+7, /vagrant/src/Toolkit/Config/AMSConfig.pyc, 45.63 KB
+8, /vagrant/src/Config/config.py, 36.34 KB
+9, /vagrant/src/Automation/AbstractAutomation.py, 35.22 KB
+10, /vagrant/src/Toolkit/Controllers/ams_confluence_doc.py, 31.06 KB
+11, /vagrant/src/jira/classes/jibbix.py, 30.23 KB
+12, /vagrant/src/Toolkit/Lib/Helpers/AMSZabbix.py, 28.95 KB
+13, /vagrant/src/Toolkit/Config/AMSJibbixOptions.py, 28.80 KB
+14, /vagrant/src/Toolkit/Config/AMSSchedule.py, 28.59 KB
+15, /vagrant/src/Toolkit/Views/CommandLineConfigView.py, 27.25 KB
+
+Top 5 directories in space consumption of files modified in the past 1 days. 
+1, /vagrant/src/Toolkit/ops-infrastructure, 14.87 MB
+2, /vagrant/src/Toolkit/Sked, 7.88 MB
+3, /vagrant/src/Toolkit/Utilities/Arch, 4.67 MB
+4, /vagrant/src/Toolkit/Config, 545.77 KB
+5, /vagrant/src/lib/Helpers, 204.52 KB

@@ -1,0 +1,21 @@
+<tr>
+    <td class="market_heading" valign="top">
+        <table class="market_heading_table" style="" cellpadding="2"
+               cellspacing="2">
+            <tr>
+                <td class="market_name" nowrap colspan="3">
+                    {marketNameText} - {systemStatusUpper}
+                </td>
+            </tr>
+            <tr>
+                <td nowrap class="agp_date_summary_th date_col">{agp_col_header_name} Date</td>
+                <td nowrap class="agp_date_summary_th completed_col">Completed At</td>
+                <td nowrap class="agp_date_summary_th duration_col">Duration</td>
+            </tr>
+            {batchStatusSummaryRows}
+        </table>
+        <table class="market_agp_summary" style="" cellpadding="2" cellspacing="2">
+            {alertSummaryRows}
+        </table>
+    </td>
+</tr>

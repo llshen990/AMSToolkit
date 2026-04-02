@@ -1,0 +1,38 @@
+{
+  "file_routes": {
+    "outgoing_realtime_sftp": {
+      "poling_interval": "5",
+      "retry_limit": "5",
+      "retry_wait": "30",
+      "jibbix_options": {
+        "watchers": "owhoyt,dasetz,kepers",
+        "component": "Operations",
+        "labels": "ams_batch_monitoring",
+        "comm_status_prod": "Not Normal",
+        "summary": "Failed to route file",
+        "priority": "Critical"
+      },
+      "source_method": {
+        "type": "sftp",
+        "directory": "/sso/transport/anf/outgoing",
+        "username": "name",
+        "password": "password",
+        "key_file": "/usr/tmp/keyfile1",
+        "host": "anf01au.vsp.sas.com",
+        "archive_directory": "/sso/transport/archive/",
+        "file_patterns": [
+          "*.csv",
+          "*.bat"
+        ]
+      },
+      "destination_method": {
+        "type": "sftp",
+        "directory": "/sso/transport/anf/destination",
+        "username": "name2",
+        "password": "password2",
+        "key_file": "/usr/tmp/keyfile2",
+        "host": "anf03au.vsp.sas.com"
+      }
+    }
+  }
+}
